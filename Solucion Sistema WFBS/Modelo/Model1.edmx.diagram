@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="232471e73ec34cf890a77697d495e2e4" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.AREA" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AUDITORIA" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.COMPETENCIA" Width="1.5" PointX="3.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DETALLE_EVALUACION" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EVALUACION" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HABILIDAD" Width="1.5" PointX="6" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NIVEL" Width="1.5" PointX="3.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OBSERVACION_COMPETENCIA" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PERFIL" Width="1.5" PointX="3.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PERIODO_EVALUACION" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TIPO_EVALUACION" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USUARIO" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_EVALUACI_R_E_A_AREA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OBSERVAC_R_P_O_AREA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_R_P_A_AREA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EVALUACI_R_E_C_COMPETEN" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HABILIDA_R_C_H_COMPETEN" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OBSERVAC_R_O_C_COMPETEN" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DETALLE__R_DE_E_EVALUACI" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DETALLE__R_DE_F_USUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DETALLE__R_DE_PE_PERIODO_" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EVALUACI_R_E_TE_TIPO_EVA" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EVALUACI_R_PE_E_PERIODO_" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HABILIDA_R_N_H_NIVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USUARIO_R_P_F_PERFIL" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
